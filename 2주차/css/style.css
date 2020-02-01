@@ -1,19 +1,10 @@
 @import url("../css/common.css");
 
 body {
-    width: 1920px;
+    width: 500px;
     margin: 0 auto;
+    padding: 50px;
 }
-form {
-    width: 1000px;
-    margin: 0 auto;
-}
-
-.b {
-    width: 100px;
-}
-
 .list {
     width: 400px;
-    
 }
