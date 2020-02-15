@@ -22,7 +22,7 @@ btt.addEventListener("click", function(e) {
 function scrollToTop() {
     var scrollInterval = setInterval(function() {
         if (scrollPos != 0) {
-            window.scrollBy(0, -10);
+            window.scrollBy(0, -50);
         } else {
             clearInterval(scrollInterval);
         }
