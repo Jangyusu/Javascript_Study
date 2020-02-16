@@ -4,6 +4,8 @@ var btt = document.getElementById("back-to-top"),
     scrollPos,
     docHeight;
 
+console.log(docElem);
+
 docHeight = Math.max(docElem.offsetHeight, docElem.scrollHeight);
 
 if (docHeight !== "") {
@@ -15,10 +17,13 @@ window.addEventListener("scroll", function() {
     btt.className = scrollPos > offset ? "visible" : "";
 });
 
+//
+
 btt.addEventListener("click", function(e) {
     e.preventDefault();
     scrollToTop();
 });
+
 function scrollToTop() {
     var scrollInterval = setInterval(function() {
         if (scrollPos != 0) {
