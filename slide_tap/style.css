@@ -1,0 +1,24 @@
+div {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background: #000;
+    position: relative;
+}
+div a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 0;
+    margin: 0 20px;
+}
+div span {
+    height: 2px;
+    position: absolute;
+    bottom: 10px;
+    background: #fff;
+    transition: 1s;
+}
+div span.active {
+
+}
